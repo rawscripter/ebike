@@ -1,0 +1,155 @@
+.form-control {
+    height: 45px;
+    border: 1px solid #8c8c8c73;
+}
+
+/*style for submit button*/
+.custom-button{
+    width: 260px;
+}
+.custom-button-modal{
+    width: 150px;
+}
+#errors{
+    margin-top: 20px ;
+}
+.error {
+    color: #000;
+    padding: 10px;
+    background: #dcdcdc7d;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px dotted #3490dc;
+}
+
+span.table-data-info-header {
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #b5b5b573;
+    box-shadow: 1px 1px 1px 0px #e0e0e0;
+    margin-right: 20px;
+}
+
+span.table-data-info-header:hover {
+    box-shadow: 3px 3px 3px 2px #e0e0e0;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+
+tr:hover {
+    box-shadow: 3px 1px 5px 3px #ccc !important;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+/*styles for search box*/
+input.search-box {
+    padding: 5px;
+    margin: 0;
+    border: none;
+    width: 450px;
+    height: 36px;
+}
+
+
+form#search_form {
+    display: inline;
+    float: right;
+    right: 0;
+    position: absolute;
+    top: 75px;
+}
+
+.display_hidden{
+    display: none;
+}
+
+.changed {
+    background: #85e285a6;
+}
+
+
+
+i.fa.fa-trash.btn{
+    transition-duration: .3s;
+    color: #ff0000;
+    background: #ffffff;
+    font-size: 24px;
+}
+
+.btn-warning {
+    background-color: #28a745;
+    border-color: #ffed4a;
+    color: #fff;
+}
+
+
+i.fa.fa-camera.btn {
+    font-size: 21px;
+    position: absolute;
+    color: #525252;
+    border: 1px solid #ccc;
+}
+
+
+
+/*css for dropzone*/
+
+
+
+.page-heading {
+    margin: 20px 0;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Segoe UI Light", "Arial", serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+#my-dropzone .message {
+    font-family: "Segoe UI Light", "Arial", serif;
+    font-weight: 600;
+    color: #0087F7;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+
+.dropzone {
+    border: 2px dashed #0087F7;
+    background: white;
+    border-radius: 5px;
+    min-height: 300px;
+    padding: 90px 0;
+    vertical-align: baseline;
+}
+
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #38c172;
+    border: 1px solid #38c172;
+    border-radius: .25rem;
+    color: #fff;
+}
+p.card-text.text-center {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.form-group {
+    margin-bottom: 10px !important;
+}
+.form-control {
+    height: 40px !important;;
+}
